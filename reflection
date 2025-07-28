@@ -1,0 +1,16 @@
+# Reflection Questions 
+
+## How did you handle optional props in your components?
+I passed optional Props through my components but I know my logic wasnt persent, having multiple errors proceed to pop up confused me, knowing a callback function was needed 
+with my edit and other buttons.
+
+## What considerations did you make when designing the component interfaces?
+Well i was trying to add the children component to handle the callback funtion which I was not able to do.
+
+## How did you ensure type safety across your components?
+In my UserProfileCard component I used the UserProfileCardProps interface that was given with optional properties, including types for the user object, showEmail, showRole.
+
+## What challenges did you face when implementing component composition?
+One challenge I faced when implementing component composition was understanding how to use children effectively. 
+I didn’t fully grasp how to structure a component so that it could accept other components or JSX elements inside it. 
+This led to some confusion about when the entire lab.
