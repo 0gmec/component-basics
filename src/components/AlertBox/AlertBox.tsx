@@ -3,22 +3,22 @@
 
 import type { AlertBoxProps } from "../../types/";
 
- export const AlertBox: React.FC<AlertBoxProps> = ({
+export const AlertBox: React.FC<AlertBoxProps> = ({
     type,
     message,
     onClose,
     children,
- }) => {
+}) => {
     return (
         <div>
-<p>AlertBox</p>
-<p>{type}</p>
-<p>{message}</p>
-<button onClick={onClose}>Click Me</button>
-{children}
-</div>
+            <p>AlertBox</p>
+            <p>{type}</p>
+            <p>{message}</p>
+            <button onClick={onClose}>Click Me</button>
+            {children}
+        </div>
     )
- }
+}
 
 
 // export default function AlertBox(props: AlertBoxProps) {
@@ -36,9 +36,3 @@ import type { AlertBoxProps } from "../../types/";
 
 
 
-// export interface AlertBoxProps {
-//   type: AlertType;
-//   message: string;
-//   onClose?: () => void;
-//   children?: React.ReactNode;
-// }
