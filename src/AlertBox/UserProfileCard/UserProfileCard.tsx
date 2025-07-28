@@ -20,10 +20,11 @@ import type { UserProfileCardProps } from "../../types";
 export default function UserProfileCard(props: UserProfileCardProps) {
     return (
         <div className="user-profile">
+            <p>Profile Card</p>
             <p>Name: {props.user.name}</p>
            <p>Email: {props.showEmail} </p>
           <p>Role: {props.showRole} </p>
-            <button onClick={props.onEdit}>Edit</button>
+            <button onClick={onEdit}>Edit</button>
             {props.children}
         </div>
     )

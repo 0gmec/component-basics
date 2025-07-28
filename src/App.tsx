@@ -1,6 +1,6 @@
 import AlertBox from './AlertBox/AlertBox.tsx'
 import UserProfileCard from './AlertBox/UserProfileCard/UserProfileCard.tsx'
-import ProductDisplayprops from './AlertBox/ProductDisplay/ProductDisplay.tsx'
+import ProductDisplayProps from './AlertBox/ProductDisplay/ProductDisplay.tsx'
 
 import './App.css'
 

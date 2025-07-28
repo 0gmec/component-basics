@@ -7,6 +7,7 @@ export default function AlertBox(props: AlertBoxProps) {
     
     return (
         <div>
+            
             <p>AlertBox</p>
             <p>{props.type}</p>
             <p>{props.message}</p>
