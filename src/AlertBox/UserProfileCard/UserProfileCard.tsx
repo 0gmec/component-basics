@@ -1,4 +1,4 @@
-import type { UserProfileCardProps } from "../../../types";
+import type { UserProfileCardProps } from "../../types";
 
 
 // export interface User {

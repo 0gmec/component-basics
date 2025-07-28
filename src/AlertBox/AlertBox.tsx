@@ -1,7 +1,7 @@
 //  export type AlertType = 'success' | 'error' | 'warning' | 'info';
 
 
-import type { AlertBoxProps } from "../../types/";
+import type { AlertBoxProps } from "../types";
 
 export default function AlertBox(props: AlertBoxProps) {
     

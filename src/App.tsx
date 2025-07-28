@@ -1,6 +1,6 @@
-import AlertBox from './components/AlertBox/AlertBox.tsx'
-import UserProfileCard from './components/UserProfileCard.tsx'
-
+import AlertBox from './AlertBox/AlertBox.tsx'
+import UserProfileCard from './AlertBox/UserProfileCard/UserProfileCard.tsx'
+import ProductDisplayprops from './AlertBox/ProductDisplay/ProductDisplay.tsx'
 
 import './App.css'
 
@@ -24,6 +24,12 @@ function App() {
         showEmail={true}
         showRole={true}
         onEdit={() => alert('Editing user')}
+        />
+      </div>
+
+      <div className="ProductDisplay-container">
+        <ProductDisplay
+
         />
       </div>
 
