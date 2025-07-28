@@ -3,6 +3,7 @@ import UserProfileCard from './AlertBox/UserProfileCard/UserProfileCard.tsx'
 import ProductDisplayProps from './AlertBox/ProductDisplay/ProductDisplay.tsx'
 
 import './App.css'
+import ProductDisplayprops from './AlertBox/ProductDisplay/ProductDisplay.tsx'
 
 function App() {
 
@@ -28,7 +29,13 @@ function App() {
       </div>
 
       <div className="ProductDisplay-container">
-        <ProductDisplay
+        <ProductDisplayprops
+        product={product}
+        showDescription={true}
+        showStockStatus={true}
+        onAddToCart={() => alert('Added product')}
+
+
 
         />
       </div>
