@@ -3,22 +3,21 @@
 
 import type { AlertBoxProps } from "../../types/";
 
-export const AlertBox: React.FC<AlertBoxProps> = ({
-    type,
-    message,
-    onClose,
-    children,
-}) => {
+export default function AlertBox(props: AlertBoxProps) {
+    
     return (
         <div>
             <p>AlertBox</p>
-            <p>{type}</p>
-            <p>{message}</p>
-            <button onClick={onClose}>Click Me</button>
-            {children}
+            <p>{props.type}</p>
+            <p>{props.message}</p>
+            <button onClick={props.onClose}>Click Me</button>
+            {props.children}
         </div>
     )
 }
+
+
+
 
 
 // export default function AlertBox(props: AlertBoxProps) {
