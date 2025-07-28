@@ -18,20 +18,13 @@ import type { UserProfileCardProps } from "../../../types";
 // }
 
 export default function UserProfileCard(props: UserProfileCardProps) {
-      const {
-        user,
-        showEmail,
-        showRole,
-        onEdit,
-        children
-    }
     return (
         <div className="user-profile">
-            <h2> {user}</h2>
-            {showEmail} <p>Email</p>
-            {showRole} <p>Role</p>
-            <button onClick={onEdit}>Edit</button>
-            {children}
+            <p>Name: {props.user.name}</p>
+           <p>Email: {props.showEmail} </p>
+          <p>Role: {props.showRole} </p>
+            <button onClick={props.onEdit}>Edit</button>
+            {props.children}
         </div>
     )
 }

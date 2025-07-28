@@ -13,6 +13,8 @@ export default function AlertBox(props: AlertBoxProps) {
             <button onClick={props.onClose}>Click Me</button>
             {props.children}
         </div>
+
+       
     )
 }
 
